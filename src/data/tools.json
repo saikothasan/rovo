@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "mx-lookup",
+    "title": "MX Record Lookup",
+    "description": "Verify mail exchange servers and priority for any domain to ensure email deliverability.",
+    "category": "Email",
+    "apiType": "dns",
+    "recordType": "MX",
+    "seo": {
+      "keywords": ["mx lookup", "mail exchange", "email server check", "dns mx"],
+      "question": "How do I check MX records?"
+    }
+  },
+  {
+    "slug": "blacklist-check",
+    "title": "IP Blacklist Check",
+    "description": "Check if an IP or domain is listed on major real-time blackhole lists (RBLs) like Spamhaus.",
+    "category": "Security",
+    "apiType": "blacklist",
+    "seo": {
+      "keywords": ["ip blacklist", "spamhaus check", "email blacklist", "rbl lookup"],
+      "question": "Is my IP blacklisted?"
+    }
+  },
+  {
+    "slug": "dmarc-lookup",
+    "title": "DMARC Lookup",
+    "description": "Retrieve and validate the DMARC record to prevent email spoofing.",
+    "category": "Email",
+    "apiType": "dns-txt",
+    "prefix": "_dmarc",
+    "seo": {
+      "keywords": ["dmarc check", "email security", "domain alignment"],
+      "question": "How to validate DMARC?"
+    }
+  },
+  {
+    "slug": "what-is-my-ip",
+    "title": "What Is My IP?",
+    "description": "Instantly detect your public IPv4 and IPv6 address and ISP details.",
+    "category": "Network",
+    "apiType": "my-ip",
+    "seo": {
+      "keywords": ["my ip", "what is my ip address", "check ip"],
+      "question": "What is my public IP?"
+    }
+  },
+  {
+    "slug": "ssl-check",
+    "title": "SSL/TLS Checker",
+    "description": "Analyze the SSL certificate chain, expiry date, and issuer information.",
+    "category": "Security",
+    "apiType": "ssl",
+    "seo": {
+      "keywords": ["ssl checker", "tls verify", "certificate expiry"],
+      "question": "Is my SSL valid?"
+    }
+  },
+  {
+    "slug": "whois-lookup",
+    "title": "Whois Lookup",
+    "description": "Query the WHOIS database for domain registration and ownership details.",
+    "category": "Domain",
+    "apiType": "whois",
+    "seo": {
+      "keywords": ["whois", "domain owner", "expiry date"],
+      "question": "Who owns this domain?"
+    }
+  },
+  { "slug": "a-lookup", "title": "A Record Lookup", "description": "Find the IPv4 address associated with a domain.", "category": "DNS", "apiType": "dns", "recordType": "A", "seo": { "keywords": ["a record", "ipv4 lookup"] } },
+  { "slug": "aaaa-lookup", "title": "AAAA Record Lookup", "description": "Find the IPv6 address associated with a domain.", "category": "DNS", "apiType": "dns", "recordType": "AAAA", "seo": { "keywords": ["aaaa record", "ipv6 lookup"] } },
+  { "slug": "cname-lookup", "title": "CNAME Lookup", "description": "Find the canonical name (alias) for a domain.", "category": "DNS", "apiType": "dns", "recordType": "CNAME", "seo": { "keywords": ["cname lookup", "alias check"] } },
+  { "slug": "txt-lookup", "title": "TXT Lookup", "description": "View text records often used for verification (Google, SPF, etc).", "category": "DNS", "apiType": "dns", "recordType": "TXT", "seo": { "keywords": ["txt record", "spf string"] } },
+  { "slug": "ns-lookup", "title": "NS Lookup", "description": "Identify the authoritative name servers for a domain.", "category": "DNS", "apiType": "dns", "recordType": "NS", "seo": { "keywords": ["nameserver check", "ns record"] } },
+  { "slug": "soa-lookup", "title": "SOA Lookup", "description": "View the Start of Authority record for zone administration info.", "category": "DNS", "apiType": "dns", "recordType": "SOA", "seo": { "keywords": ["soa record", "zone admin"] } },
+  { "slug": "srv-lookup", "title": "SRV Lookup", "description": "Locate services like SIP or Minecraft servers.", "category": "DNS", "apiType": "dns", "recordType": "SRV", "seo": { "keywords": ["srv record", "service locator"] } },
+  { "slug": "ptr-lookup", "title": "Reverse DNS (PTR)", "description": "Perform a reverse lookup to find the hostname of an IP address.", "category": "Network", "apiType": "dns-ptr", "seo": { "keywords": ["reverse dns", "ptr record", "ip to host"] } },
+  { "slug": "spf-lookup", "title": "SPF Record Lookup", "description": "Extract and validate the SPF policy from TXT records.", "category": "Email", "apiType": "dns-txt", "seo": { "keywords": ["spf check", "sender policy framework"] } },
+  { "slug": "dkim-lookup", "title": "DKIM Lookup", "description": "Check DomainKeys Identified Mail records (requires selector).", "category": "Email", "apiType": "dkim", "seo": { "keywords": ["dkim check", "email signature"] } },
+  { "slug": "bimi-lookup", "title": "BIMI Lookup", "description": "Check for Brand Indicators for Message Identification records.", "category": "Email", "apiType": "dns-txt", "prefix": "default._bimi", "seo": { "keywords": ["bimi", "brand logo email"] } },
+  { "slug": "mta-sts-lookup", "title": "MTA-STS Lookup", "description": "Check Mail Transfer Agent Strict Transport Security policy.", "category": "Email", "apiType": "dns-txt", "prefix": "_mta-sts", "seo": { "keywords": ["mta-sts", "email encryption"] } },
+  { "slug": "dnskey-lookup", "title": "DNSKEY Lookup", "description": "Retrieve the public key used to verify DNSSEC signatures.", "category": "DNSSEC", "apiType": "dns", "recordType": "DNSKEY", "seo": { "keywords": ["dnskey", "dnssec"] } },
+  { "slug": "ds-lookup", "title": "DS Lookup", "description": "Delegation Signer record check for DNSSEC.", "category": "DNSSEC", "apiType": "dns", "recordType": "DS", "seo": { "keywords": ["ds record", "dnssec chain"] } },
+  { "slug": "nsec-lookup", "title": "NSEC Lookup", "description": "Next Secure record check.", "category": "DNSSEC", "apiType": "dns", "recordType": "NSEC", "seo": { "keywords": ["nsec", "dnssec"] } },
+  { "slug": "rrsig-lookup", "title": "RRSIG Lookup", "description": "Resource Record Signature check.", "category": "DNSSEC", "apiType": "dns", "recordType": "RRSIG", "seo": { "keywords": ["rrsig", "signature"] } },
+  { "slug": "ping", "title": "Ping Test (TCP)", "description": "Measure latency to a server using TCP handshake.", "category": "Network", "apiType": "ping", "seo": { "keywords": ["ping test", "latency check"] } },
+  { "slug": "tcp-lookup", "title": "TCP Port Check", "description": "Verify if a specific port is open on a target server.", "category": "Network", "apiType": "tcp", "seo": { "keywords": ["port checker", "open port"] } },
+  { "slug": "http-headers", "title": "HTTP Headers", "description": "Inspect the HTTP response headers of a website.", "category": "Web", "apiType": "headers", "seo": { "keywords": ["http headers", "server info"] } },
+  { "slug": "http-redirect", "title": "Redirect Tracer", "description": "Trace the path of URL redirects.", "category": "Web", "apiType": "trace", "seo": { "keywords": ["redirect checker", "url trace"] } },
+  { "slug": "domain-health", "title": "Domain Health", "description": "Comprehensive check of a domain's DNS and mail health.", "category": "Domain", "apiType": "health", "seo": { "keywords": ["domain health", "site status"] } },
+  { "slug": "asn-lookup", "title": "ASN Lookup", "description": "Find information about an Autonomous System Number.", "category": "Network", "apiType": "whois-asn", "seo": { "keywords": ["asn lookup", "isp info"] } },
+  { "slug": "loc-lookup", "title": "LOC Lookup", "description": "Check geographical location records in DNS.", "category": "DNS", "apiType": "dns", "recordType": "LOC", "seo": { "keywords": ["loc record", "dns location"] } },
+  { "slug": "caa-lookup", "title": "CAA Lookup", "description": "Certificate Authority Authorization check.", "category": "Security", "apiType": "dns", "recordType": "CAA", "seo": { "keywords": ["caa record", "ssl authority"] } },
+  { "slug": "test-email-server", "title": "Test Email Server", "description": "Simulate an SMTP connection to test availability.", "category": "Email", "apiType": "smtp-test", "seo": { "keywords": ["smtp test", "email server status"] } }
+]
